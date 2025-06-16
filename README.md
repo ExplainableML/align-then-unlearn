@@ -1,4 +1,12 @@
-# Align-then-Unlearn: Embedding Alignment for LLM Unlearning
+<div align="center">
+    
+# Align-then-Unlearn: Embedding Alignment for LLM Unlearning <br/> _ICML 2025 Workshop MUGen_
+[![Paper](https://img.shields.io/badge/paper-OpenReview-8C1B13.svg)](https://openreview.net/forum?id=pyhbguXKXQ)
+
+Philipp Spohn <sup>1</sup> &#8198; Leander Girrbach<sup>1,2</sup> &#8198; Jessica Bader<sup>1,2</sup> &#8198; Zeynep Akata<sup>1,2</sup>
+
+<sup>1</sup>Technical University of Munich &#8198; <sup>2</sup> MCML, MDSI, Helmholtz Munich
+</div>
 
 **Paper:** [TODO]()
 
