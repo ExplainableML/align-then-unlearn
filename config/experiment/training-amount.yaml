@@ -1,0 +1,9 @@
+# @package _global_
+
+hydra:
+  sweeper:
+    params:
+      unlearning_target: 1_Stephen_King,2_Confucius,3_Bruce_Lee,4_Warren_Buffett,5_Christina_Aguilera
+      task.first_stage_steps: 5000,15000,30000
+
+name: celebs-1-${unlearning_target}-${task.training_module.pretrained_model_hook_layer}

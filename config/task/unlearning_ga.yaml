@@ -1,0 +1,31 @@
+_target_: project.tasks.unlearning_ga.UnlearningGA
+_recursive_: false
+
+name: unlearning-ga
+
+defaults:
+  - /data@unlearning_data: rwku-positive-sm
+
+training_module:
+  lr: 0.00000006
+  weight_decay: 0.0
+  clip_grad_norm: 0.05
+
+
+stages:
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250
+  - type: "unlearning"
+    steps: 250

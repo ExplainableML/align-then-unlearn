@@ -1,0 +1,9 @@
+# @package _global_
+
+hydra:
+  sweeper:
+    params:
+      unlearning_target: 3_Bruce_Lee,11_Miley_Cyrus,12_Genghis_Khan,31_Leonardo_da_Vinci,42_Michael_Strahan,43_Paul_Simon,55_Jackie_Chan,66_Kris_Jenner,74_Socrates,87_Robert_Downey_Jr
+
+
+name: celebs-4-${unlearning_target}

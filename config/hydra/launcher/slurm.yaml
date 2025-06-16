@@ -1,0 +1,14 @@
+defaults:
+  - submitit_slurm
+
+qos: default
+gres: gpu:1
+
+cpus_per_task: 4
+mem_gb: 16
+
+# 48 hours
+timeout_min: 2880
+
+# Do not requeue jobs
+max_num_timeout: 0

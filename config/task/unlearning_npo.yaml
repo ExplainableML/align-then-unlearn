@@ -1,0 +1,17 @@
+_target_: project.tasks.unlearning_npo.UnlearningNPO
+_recursive_: false
+
+name: unlearning-npo
+
+beta: 0.1
+
+defaults:
+  - /data@unlearning_data: rwku-positive-sm
+
+training_module:
+  lr: 0.00000006
+  weight_decay: 0.0
+
+stages:
+  - type: "unlearning"
+    steps: 250

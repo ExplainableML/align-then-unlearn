@@ -1,0 +1,8 @@
+# @package _global_
+
+hydra:
+  sweeper:
+    params:
+      unlearning_target: 8_Paris_Hilton,15_Mark_Cuban,30_Henry_Winkler,36_Henry_Kissinger,37_Chuck_Norris,46_Raquel_Welch,52_Chris_Brown,58_Rihanna  
+
+name: celebs-2-${unlearning_target}

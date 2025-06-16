@@ -1,0 +1,10 @@
+_target_: project.data.RWKUPositiveDataModule
+
+name: rwku-positive-sm
+
+batch_size: 2
+num_workers: 8
+
+max_input_length: 256
+# max_input_length: 512
+context_window_length: 8

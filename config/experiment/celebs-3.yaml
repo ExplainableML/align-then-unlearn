@@ -1,0 +1,8 @@
+# @package _global_
+
+hydra:
+  sweeper:
+    params:
+      unlearning_target: 64_Michelle_Pfeiffer,65_Selena_Gomez,68_Tom_Clancy,69_John_Candy,77_Val_Kilmer,80_Tony_Blair,81_Vincent_van_Gogh
+
+name: celebs-3-${unlearning_target}

@@ -1,0 +1,38 @@
+defaults:
+  - task: unlearning_atu
+  - hydra: default
+  # Allow the model to overwrite the settings below
+  - _self_
+  - pre_trained_llm: phi-3-mini-4k-instruct
+  - experiment: ~
+
+unlearning_target: "1_Stephen_King"
+
+skip_initial_eval: false
+
+seed: ~
+
+name: unlearning-${unlearning_target}
+exp: atu-unlearning
+
+wandb:
+  id: ~
+  entity: philippspohn # TODO: change to your wandb entity
+  project: ${exp}
+  group: ~
+  name: ${name}
+  mode: ~
+
+hydra:
+  job:
+    name: ${exp}
+
+trainer:
+  accelerator: auto
+  devices: auto
+  max_epochs: -1
+  log_every_n_steps: 10
+
+early_stopping: ~
+
+matmul_precision: medium

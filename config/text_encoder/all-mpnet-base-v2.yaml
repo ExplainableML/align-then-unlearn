@@ -1,0 +1,6 @@
+_target_: project.pre_trained_model.load_pre_trained_text_embedding_model
+
+name: all-mpnet-base-v2
+
+model_name: "sentence-transformers/all-mpnet-base-v2"
+tokenizer_name: "sentence-transformers/all-mpnet-base-v2"

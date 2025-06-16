@@ -1,0 +1,7 @@
+_target_: project.pre_trained_model.load_pre_trained_llm
+
+name: phi-3-mini-4k-instruct
+
+model_name: "microsoft/Phi-3-mini-4k-instruct"
+tokenizer_name: "microsoft/Phi-3-mini-4k-instruct"
+revision: "d269012bea6fbe38ce7752c8940fea010eea3383"
